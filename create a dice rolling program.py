@@ -52,8 +52,6 @@ number_of_dice = int(input("how many dice are you using?"))
 
 for die in range(number_of_dice): 
     dice.append(random.randint(1,6))
-
-for die in range(number_of_dice):
     for x in sam_dice.get(dice[die]):
         print (x)
 
